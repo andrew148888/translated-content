@@ -26,7 +26,7 @@ jobs:
         with:
           node-version: "16"
           cache: 'yarn'
-          cache-dependency-path: mdn/content/yarn.lock
+          cache-dependency-path: mdn/content/yarn.loc#k
 
       - name: Install all yarn packages
         working-directory: ${{ github.workspace }}/mdn/content
